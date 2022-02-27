@@ -35,12 +35,12 @@ Project Organization
     │   │   └── train_model.py
 
 
-### Project Description
+#### Project Description
 Investment firms, hedge funds and even individuals have been using financial models to better understand market behavior and make profitable investments and trades. A wealth of information is available in the form of historical stock prices and company performance data, suitable for machine learning algorithms to process. For this project, the task is to build a stock price predictor that takes daily trading data over a certain date range as input, and outputs projected estimates for given query dates.
 
 The inputs will contain multiple metrics, such as opening price (Open), highest price the stock traded at (High), how many stocks were traded (Volume) and closing price adjusted for stock splits and dividends (Adjusted Close); we are only predicting the Adjusted Close price.
 
-### Instructions
+#### Instructions
 
 The project will use a simple script. 
 -- Training Script: Does the Model training and saves the model, it also returns the error rate for the predicted days
@@ -68,7 +68,10 @@ to run the training script you need to parse the following arguments
 NB:For you to forecast a given stock, need to have trained a model for that specific stock
 
 
-### Git Hub Repo https://github.com/dgitahi/nano-degree-final_project
+#### Git Hub Repo 
+
+
+[githup repo](https://github.com/dgitahi/nano-degree-final_project)
 
 
 
