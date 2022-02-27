@@ -37,7 +37,7 @@ def predict (symbol_list,models,start_date,end_date):
     for symbol in symbol_list:
     
         df = pd.DataFrame(pd.date_range(start_date,end_date,freq='d'))
-        #print(df)
+    
         df.columns = ['ds']
 
         df = create_time_features(df)
