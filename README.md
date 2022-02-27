@@ -35,7 +35,14 @@ Project Organization
     │   │   └── train_model.py
 
 
+### Project Description
+Investment firms, hedge funds and even individuals have been using financial models to better understand market behavior and make profitable investments and trades. A wealth of information is available in the form of historical stock prices and company performance data, suitable for machine learning algorithms to process. For this project, the task is to build a stock price predictor that takes daily trading data over a certain date range as input, and outputs projected estimates for given query dates.
 
+The inputs will contain multiple metrics, such as opening price (Open), highest price the stock traded at (High), how many stocks were traded (Volume) and closing price adjusted for stock splits and dividends (Adjusted Close); we are only predicting the Adjusted Close price.
+
+The project will use a simple script. 1. Training Script: Does the Model training and saves the model, it also returns the error rate for the predicted days
+
+Prediction script: Takes the saved model and forecast the price of the stocks provided NB:For you to forecast a given stock, need to have trained a model for that specific stock
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
