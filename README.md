@@ -52,6 +52,7 @@ to run the training script you need to parse the following arguments
 5. Symbols List: A list of stocks intedend to train a model on
 
 - To run the training script `python training.py test_size start_date end_date folder_path list_of_stocks`
+
 NB:for the list just simply the symbols of the stock comma separated.e.g AAPL,GOOGL
 
 
@@ -63,6 +64,7 @@ to run the training script you need to parse the following arguments
 4. Symbols List: A list of stocks to forecast on
 
 - To run the prediction script `python prediction.py start_date end_date folder_path list_of_stocks`
+
 NB:For you to forecast a given stock, need to have trained a model for that specific stock
 
 
