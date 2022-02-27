@@ -68,6 +68,9 @@ to run the training script you need to parse the following arguments
 NB:For you to forecast a given stock, need to have trained a model for that specific stock
 
 
+### Git Hub Repo https://github.com/dgitahi/nano-degree-final_project
+
+
 
 --------
 
