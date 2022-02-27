@@ -63,7 +63,7 @@ to run the training script you need to parse the following arguments
 3. Model Path: the path where the trained models are saved
 4. Symbols List: A list of stocks to forecast on
 
-- To run the prediction script `python prediction.py start_date end_date folder_path list_of_stocks`
+- To run the prediction script `python predict.py start_date end_date folder_path list_of_stocks`
 
 NB:For you to forecast a given stock, need to have trained a model for that specific stock
 
