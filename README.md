@@ -40,9 +40,32 @@ Investment firms, hedge funds and even individuals have been using financial mod
 
 The inputs will contain multiple metrics, such as opening price (Open), highest price the stock traded at (High), how many stocks were traded (Volume) and closing price adjusted for stock splits and dividends (Adjusted Close); we are only predicting the Adjusted Close price.
 
-The project will use a simple script. 1. Training Script: Does the Model training and saves the model, it also returns the error rate for the predicted days
+### Instructions
 
-Prediction script: Takes the saved model and forecast the price of the stocks provided NB:For you to forecast a given stock, need to have trained a model for that specific stock
+The project will use a simple script. 
+-- Training Script: Does the Model training and saves the model, it also returns the error rate for the predicted days
+to run the training script you need to parse the following arguments
+1. test size- an integer. The size of the data that will be used to evalute the trained model.
+2. Start Date: date format. Specify the minimum date for the training dataset
+3. End Date: date format. Specify the maximum date for the training data set
+4. A folder path to save the trained models
+5. Symbols List: A list of stocks intedend to train a model on
+
+python training.py test_size start_date end_date folder_path list_of_stocks
+NB:for the list just simply type the symbols of the stock comma separated.e.g AAPL,GOOGL
+
+
+-- Prediction script: Takes the saved model and forecast the price of the stocks provided 
+to run the training script you need to parse the following arguments
+1. start_date: date format. Minimum date for the forecast
+2. end_date: date format. Maximum date for the forecast
+3. Model Path: the path where the trained models are saved
+4. Symbols List: A list of stocks to forecast on
+
+NB:For you to forecast a given stock, need to have trained a model for that specific stock
+to run the training script you need to parse the following arguments
+
+
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
