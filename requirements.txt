@@ -1,0 +1,9 @@
+# local package
+pickle
+pandas
+numpy
+datareader
+argparse
+RandomForestRegressor
+sys
+python-dotenv>=3
