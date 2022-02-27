@@ -45,7 +45,7 @@ def load_data(symbols, start_date, end_date):
         df.rename(columns= {'Adj Close':'y'},inplace = True)
         df_prices = df
     
-    #print(df_prices)
+    
 
     df_prices.reset_index(inplace=True)
     df_prices = df_prices.sort_values(by = ['Symbols','Date'])
@@ -92,11 +92,7 @@ def split_data(test_size, df):
     y_test- list- response variable
     """
     
-#     test_size = test_size
-#     training_size = 1 - test_size
 
-#     test_num = int(test_size * len(df))
-#     train_num = int(training_size * len(df))
     df =df.set_index('ds')
     train_size = len(df)-int(test_size)
     
@@ -157,7 +153,7 @@ def main(test_size,start_date,end_date,model_path,symbol_list):
 
    
 
-    #if len(sys.argv) == 6:
+    
     print('Loading data ...\n    start_date: {} end_date:{} symbols: {}' .format(start_date,end_date,symbol_list))
     df = load_data(symbol_list,start_date,end_date)
     print('creating time features')
