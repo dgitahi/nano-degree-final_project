@@ -73,7 +73,7 @@ NB:For you to forecast a given stock, need to have trained a model for that spec
 
 [githup repo](https://github.com/dgitahi/nano-degree-final_project)
 
-
+For more details on the analysis you can refer to the [medium story](https://medium.com/@gitahidave/stock-prediction-analysis-296e001e678b)
 
 --------
 
