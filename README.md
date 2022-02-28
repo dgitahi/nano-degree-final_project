@@ -36,9 +36,9 @@ Project Organization
 
 
 ### Project Description
-Investment firms, hedge funds and even individuals have been using financial models to better understand market behavior and make profitable investments and trades. A wealth of information is available in the form of historical stock prices and company performance data, suitable for machine learning algorithms to process. For this project, the task is to build a stock price predictor that takes daily trading data over a certain date range as input, and outputs projected estimates for given query dates.
+Investment in stock trading is referred to as passive mode of investment. Though passive, the risk in stock trading is very high. To hedge such risk, one needs to have a good understanding of the stock prospects. This can be done using the company’s information that is available to the public. Such information includes the historical trading prices. Historical trends though good may not be enough to decide whether to invest or not. A future outlook of how the prices will trend is required. To a achieve that, a clear understanding of the underlying patterns is required and with a use of a machine learning models we can forecast the future stock prices for a given period within an acceptable error rate.
 
-The inputs will contain multiple metrics, such as opening price (Open), highest price the stock traded at (High), how many stocks were traded (Volume) and closing price adjusted for stock splits and dividends (Adjusted Close); we are only predicting the Adjusted Close price.
+In this project, using the historical data a model for every specified stock is trained and used to forecast the future prices.
 
 ### Instructions
 
